@@ -125,5 +125,4 @@ dmypy.json
 .pyre/
 
 # Ignored on-device directories
-
-# Ignored on-device files
+.vscode/
