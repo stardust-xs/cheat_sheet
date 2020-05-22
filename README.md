@@ -19,7 +19,7 @@
 This repo will host some commonly used Pandas attributes, methods, tutorial, tips and tricks.
 
 ## Contributor
-As of now, it's just me... \*sigh*. Feel free to contribute.
+As of now, it's just me... Feel free to contribute.
 
 ## License
 Licensed under the [Apache License 2.0](https://github.com/xames3/cheat_sheet/blob/master/LICENSE). Copyright 2020 XAMES3.
