@@ -15,7 +15,7 @@
 - [Contributors](#little-advanced)
 - [License](#license)
 
-## Pandas Cheat **Sheet**
+## Pandas Cheat Sheet
 This repo will host some commonly used Pandas attributes, methods, tutorial, tips & tricks.
 
 ## Contributor
