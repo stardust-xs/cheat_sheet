@@ -1,4 +1,4 @@
-# A Simple Python Cheat sheet
+# Pandas Cheat sheet
 
 ## Table of Contents
 
