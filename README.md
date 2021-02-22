@@ -1,25 +1,30 @@
-# Pandas Cheat Sheet
+<!-- markdownlint-disable MD033 MD041 -->
+
+# Cheat Sheet
+
+This repositories hosts some commonly used methods, tutorials, tips & tricks regarding **Python**, **Git** and **OSS** technologies.
 
 ## Table of Contents
 
-- [Pandas Cheat sheet](#pandas-cheat-sheet)
-        <details>
-            <summary>Series</summary>
-                <ul>
-                    <li>[Basics](https://github.com/xames3/cheat_sheet/blob/master/pandas/series_1%20(basics).ipynb)</li>
-                    <li>[Intermediate](https://github.com/xames3/cheat_sheet/blob/master/pandas/series_2%20(intermediate).ipynb)</li>
-                    <li>[Not Really Advanced](https://github.com/xames3/cheat_sheet/blob/master/pandas/series_3%20(not%20really%20advanced).ipynb)</li>
-                    <li>[Little Advanced](https://github.com/xames3/cheat_sheet/blob/master/pandas/series_4%20(little%20advanced).ipynb)</li>
-                </ul>
-        </details>
-- [Contributors](#little-advanced)
+- [Pandas Cheat Sheet](#pandas-cheat-sheet)
+  - [Series](#series)
+    - [Basics](#basics)
+    - [Intermediate](#intermediate)
+    - [Not really advanced](#not-really-advanced)
+    - [Little advanced](#little-advanced)
+  - [Dataframe](#dataframe)
+    - [Basics](#basics)
+    <!-- - [Intermediate](#intermediate)
+    - [Not really advanced](#not-really-advanced)
+    - [Little advanced](#little-advanced) -->
+- [Git Cheat Sheet](#git-cheat-sheet)
+- [Contributor](#contributor)
 - [License](#license)
 
-## Pandas Cheat Sheet
-This repo will host some commonly used Pandas attributes, methods, tutorial, tips & tricks.
-
 ## Contributor
-As of now, it's just me... Feel free to contribute.
+
+As of now, it's just me... **Feel free to contribute!**.
 
 ## License
-Licensed under the [Apache License 2.0](https://github.com/xames3/cheat_sheet/blob/master/LICENSE). Copyright 2020 XAMES3.
+
+Licensed under the [Apache License 2.0](https://github.com/xames3/cheat_sheet/blob/master/LICENSE). Copyright 2020-2021 XAMES3.
