@@ -13,17 +13,27 @@ This repositories hosts some commonly used methods, tutorials, tips & tricks reg
     - [Not really advanced](https://github.com/xames3/cheat_sheet/blob/master/pandas/series_3%20(not%20really%20advanced).ipynb)
     - [Little advanced](https://github.com/xames3/cheat_sheet/blob/master/pandas/series_4%20(little%20advanced).ipynb)
   - [Dataframe](#dataframe)
-    - [Basics](#basics)
+    - [Basics - TBU](#basics)
     <!-- - [Intermediate](#intermediate)
     - [Not really advanced](#not-really-advanced)
     - [Little advanced](#little-advanced) -->
 - [Git Cheat Sheet](#git-cheat-sheet)
-- [Contributor](#contributor)
+  - [What is Git?](https://github.com/xames3/cheat_sheet/blob/master/git/basics.md#what-is-git)
+  - [How to get started with Git?](https://github.com/xames3/cheat_sheet/blob/master/git/basics.md#how-to-get-started-with-git)
+- [Contributors](#contributors)
 - [License](#license)
 
-## Contributor
+## Pandas Cheat Sheet
 
-As of now, it's just me... **Feel free to contribute!**.
+Pandas cheat sheet is where the basics of Pandas are explained. It is still a **WIP** though and more contents would be added with time.
+
+## Git Cheat Sheet
+
+Git cheat sheet is where you can find the essential bits of Git, their details and technical usage.
+
+## Contributors
+
+As of now, it's just me... Also feel free to correct if you find something isn't right.
 
 ## License
 
