@@ -27,3 +27,26 @@ Download and install Git onto your machine from [**here**](https://git-scm.com/d
 <p align="center">
   <img src="https://github.com/xames3/cheat_sheet/blob/assets/media/git--version.png?raw=true">
 </p>
+
+## Configuring Git
+
+Once Git is installed we can start using it.
+To use Git, we need to configure it first. Configuring Git is similar to **logging** in wherein you need to provide your credential and other optional metadata.
+
+I have my own preference for this and I would recommend you to follow these steps too. These following "steps" are not mandatory and can be overridden later whenever you want.
+
+Okay, so my Git "configuration" involves 2 steps:
+- Adding user and
+- Adding gpg key
+
+### Adding User
+
+This is basically similar to logging in and saving your credentials. Although you need to enter your credentials while pulling and pushing your changes.
+
+**NOTE:** This feature works great when integrated with VSCode.
+
+So in order to add your Git *(GitHub/GitLab/BitBucket)* account, you need to add the below commands:
+```bash
+git config --global user.name "<YOUR GIT USERNAME>"
+git config --global user.email "<YOUR REGISTERED EMAIL WITH GIT>"
+```

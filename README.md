@@ -20,6 +20,9 @@ This repositories hosts some commonly used methods, tutorials, tips & tricks reg
 - [Git Cheat Sheet](#git-cheat-sheet)
   - [What is Git?](https://github.com/xames3/cheat_sheet/blob/master/git/basics.md#what-is-git)
   - [How to get started with Git?](https://github.com/xames3/cheat_sheet/blob/master/git/basics.md#how-to-get-started-with-git)
+  - [Configuring Git](https://github.com/xames3/cheat_sheet/blob/master/git/basics.md#configuring-git)
+    - [Adding User]()
+    - [Adding GPG key]()
 - [Contributors](#contributors)
 - [License](#license)
 
