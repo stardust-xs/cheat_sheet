@@ -36,6 +36,10 @@ Pandas cheat sheet is where the basics of Pandas are explained. It is still a **
 
 Git cheat sheet is where you can find the essential bits of Git, their details and technical usage.
 
+## Editors Cheat Sheet
+
+Editors cheat sheet is where you can find some tip, tricks and shortcuts to various editors and my recommended settings to expedite the workflow.
+
 ## Contributors
 
 As of now, it's just me... Also feel free to correct if you find something isn't right.
