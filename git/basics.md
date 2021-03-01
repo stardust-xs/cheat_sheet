@@ -1,5 +1,5 @@
 <!-- markdownlint-disable MD033 MD041 -->
-# Git
+# Git :octocat:
 
 This cheat sheet covers at least whatever basics you need to know about [**Git**](https://git-scm.com/).
 
