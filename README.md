@@ -23,6 +23,8 @@ This repositories hosts some commonly used methods, tutorials, tips & tricks reg
   - [Configuring Git](https://github.com/xames3/cheat_sheet/blob/master/git/basics.md#configuring-git)
     - [Adding User](https://github.com/xames3/cheat_sheet/blob/master/git/basics.md#adding-user)
     - [Adding GPG key](https://github.com/xames3/cheat_sheet/blob/master/git/basics.md#adding-gpg-key)
+- [Nano Cheat Sheet](#nano-cheat-sheet)
+  - [Navigations](https://github.com/xames3/cheat_sheet/blob/master/editors/nano.md#navigations)
 - [Contributors](#contributors)
 - [License](#license)
 
