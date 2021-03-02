@@ -7,7 +7,7 @@ This repositories hosts some commonly used methods, tutorials, tips & tricks reg
 ## Table of Contents
 
 - [Pandas Cheat Sheet](#pandas-cheat-sheet)
-  - [Series]([#series](https://github.com/xames3/cheat_sheet/blob/master/pandas/series_1%20(basics).ipynb))
+  - [Series](https://github.com/xames3/cheat_sheet/blob/master/pandas/series_1%20(basics).ipynb)
     - [Basics](https://github.com/xames3/cheat_sheet/blob/master/pandas/series_1%20(basics).ipynb)
     - [Intermediate](https://github.com/xames3/cheat_sheet/blob/master/pandas/series_2%20(intermediate).ipynb)
     - [Not really advanced](https://github.com/xames3/cheat_sheet/blob/master/pandas/series_3%20(not%20really%20advanced).ipynb)
