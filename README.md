@@ -7,7 +7,7 @@ This repositories hosts some commonly used methods, tutorials, tips & tricks reg
 ## Table of Contents
 
 - [Pandas Cheat Sheet](#pandas-cheat-sheet)
-  - [Series](#series)
+  - [Series]([#series](https://github.com/xames3/cheat_sheet/blob/master/pandas/series_1%20(basics).ipynb))
     - [Basics](https://github.com/xames3/cheat_sheet/blob/master/pandas/series_1%20(basics).ipynb)
     - [Intermediate](https://github.com/xames3/cheat_sheet/blob/master/pandas/series_2%20(intermediate).ipynb)
     - [Not really advanced](https://github.com/xames3/cheat_sheet/blob/master/pandas/series_3%20(not%20really%20advanced).ipynb)
@@ -17,13 +17,13 @@ This repositories hosts some commonly used methods, tutorials, tips & tricks reg
     <!-- - [Intermediate](#intermediate)
     - [Not really advanced](#not-really-advanced)
     - [Little advanced](#little-advanced) -->
-- [Git Cheat Sheet](#git-cheat-sheet)
+- [Git Cheat Sheet](https://github.com/xames3/cheat_sheet/blob/master/git/basics.md)
   - [What is Git?](https://github.com/xames3/cheat_sheet/blob/master/git/basics.md#what-is-git)
   - [How to get started with Git?](https://github.com/xames3/cheat_sheet/blob/master/git/basics.md#how-to-get-started-with-git)
   - [Configuring Git](https://github.com/xames3/cheat_sheet/blob/master/git/basics.md#configuring-git)
     - [Adding User](https://github.com/xames3/cheat_sheet/blob/master/git/basics.md#adding-user)
     - [Adding GPG key](https://github.com/xames3/cheat_sheet/blob/master/git/basics.md#adding-gpg-key)
-- [Nano Cheat Sheet](#nano-cheat-sheet)
+- [Nano Cheat Sheet](https://github.com/xames3/cheat_sheet/blob/master/editors/nano.md)
   - [Navigations](https://github.com/xames3/cheat_sheet/blob/master/editors/nano.md#navigations)
 - [Contributors](#contributors)
 - [License](#license)
