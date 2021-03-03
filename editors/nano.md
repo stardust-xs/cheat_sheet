@@ -39,6 +39,26 @@ Another alternate solution to this is using **Alt + A** to begin marking and the
 
 In case you need to select everything (select all), unfortunately there's no official shortcut for this. But we can combine the keystrokes to achieve this as well. Simply navigate to the start of the document, start marking and jump to end of the document.<br>So this looks like this, **Ctrl + Home** followed by **Alt + A** and then **Ctrl + End**.
 
+As a side note, you can do **Alt + A** to stop marking.
+
+### Cut
+
+Cutting text is an essential part of using a text editor. Nano makes cutting easy with **Ctrl + K**. Where **Ctrl + K** cuts entire line and in case you need to cut a portion of a sentence, you need to select text and then cut it. So it looks like **Alt + A + (:arrow_up::arrow_right::arrow_down::arrow_left:)** to select something followed by **Ctrl + K** to cut. Alternate keystroke for cutting is **F9** which feels less intuitive in my opinion.
+
+**NOTE:** Please note that when something is "cut" in nano, it stays in buffer (nano's internal memory) so it cannot be used outside nano.
+
+### Copy
+
+Copying text is similar to cutting. For copying an entire line, use **Alt + 6** and for copying portion of a sentence, do **Alt + A + (:arrow_up::arrow_right::arrow_down::arrow_left:)** to select something followed by **Alt + 6** to copy. Alternate keystroke for pasting is **Alt + Shift + 6** which seems little redundant. Also the copied text stays in buffer and can't be used outside.
+
+In case you need to copy text outside nano, copy text using **Ctrl + Shift + C**.
+
+### Paste
+
+Pasting text is as easy as it gets just do **Ctrl + U**. Pasting will only paste whatever was stored in the buffer. Alternate keystroke for copying is **F10** which again feels less practical on laptops with multi-functional **Fn** keys.
+
+In case you need to paste something from outside nano into nano, then use **Ctrl + Shift + V**.
+
 ## Summary
 
 Lets summarize what we know.
@@ -51,4 +71,8 @@ Lets summarize what we know.
 | Page Up, Page Down | Ctrl + Y, Ctrl + V | Scroll entire screen worth of text |
 | Shift + (→←↑↓) | Alt + A + (→←↑↓) | Select by characters |
 | Ctrl + Shift + (→←↑↓) | Alt + A + Ctrl + (→←↑↓) | Select by words |
-| Ctrl + Home → Alt + A →Ctrl + End |  | Select all |
+| Ctrl + Home → Alt + A → Ctrl + End |  | Select all |
+| Ctrl + K | F9 | Cut entire line with line break |
+| Alt + A + (→←↑↓) → Ctrl + K | Alt + A + (→←↑↓) → F9 | Cut words/portion of a sentence |
+| Alt + 6 | Alt + Shift + 6 | Copy entire line with line break |
+| Alt + A + (→←↑↓) → Alt + 6 | Alt + A + (→←↑↓) → Alt + Shift + 6 | Copy words/portion of a sentence |
