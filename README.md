@@ -31,6 +31,7 @@ This repositories hosts some commonly used methods, tutorials, tips & tricks reg
     - [Cut](https://github.com/xames3/cheat_sheet/blob/master/editors/nano.md#cut)
     - [Copy](https://github.com/xames3/cheat_sheet/blob/master/editors/nano.md#copy)
     - [Paste](https://github.com/xames3/cheat_sheet/blob/master/editors/nano.md#paste)
+    - [Delete](https://github.com/xames3/cheat_sheet/blob/master/editors/nano.md#delete)
   - [Summary](https://github.com/xames3/cheat_sheet/blob/master/editors/nano.md#summary)
 - [Contributors](#contributors)
 - [License](#license)
