@@ -76,3 +76,5 @@ Lets summarize what we know.
 | Alt + A + (→←↑↓) → Ctrl + K | Alt + A + (→←↑↓) → F9 | Cut words/portion of a sentence |
 | Alt + 6 | Alt + Shift + 6 | Copy entire line with line break |
 | Alt + A + (→←↑↓) → Alt + 6 | Alt + A + (→←↑↓) → Alt + Shift + 6 | Copy words/portion of a sentence |
+| Ctrl + U | F10 | Paste text from the buffer |
+<!-- |  |  |  | -->
