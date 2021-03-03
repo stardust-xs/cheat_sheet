@@ -37,7 +37,7 @@ The above method works just fine but has a huge limitation, it can just copy and
 
 Another alternate solution to this is using **Alt + A** to begin marking and then selecting text using the directional arrows, so it looks something like **Alt + A + (:arrow_up::arrow_right::arrow_down::arrow_left:)** for selecting characters or **Alt + A + Ctrl + (:arrow_up::arrow_right::arrow_down::arrow_left:)** for select whole words.
 
-In case you need to select everything (select all), unfortunately there's no official shortcut for this. But we can combine the keystrokes to achieve this as well. Simply navigate to the start of the document, start marking and jump to end of the document.<br>So this looks like this, **Ctrl + Home** followed by **Alt + A** and then **Ctrl + End**.
+In case you need to select everything (select all), unfortunately there's no official shortcut for this. But we can combine the keystrokes to achieve this as well. Simply navigate to the start of the document, start marking and jump to end of the document.<br>So this looks like this, **Ctrl + Home** followed by **Alt + A** and then **Ctrl + End**, I like to call this, <a id="select-all">**Select All**</a> trick.
 
 As a side note, you can do **Alt + A** to stop marking.
 
@@ -59,6 +59,14 @@ Pasting text is as easy as it gets just do **Ctrl + U**. Pasting will only paste
 
 In case you need to paste something from outside nano into nano, then use **Ctrl + Shift + V**.
 
+### Delete
+
+Deleting text is as simple as spamming the **Backspace** key. But there's more to that, **Backspace** deletes text which is at the "back" whereas **Delete** deletes characters which are "ahead". Deleting text also happens character by character and can be quite time consuming. So in case you need to delete an entire line you can do **Alt + Delete**. This deletes an entire line including line break. If you want to delete specific portion of the sentence you can do, **Alt + A + (:arrow_up::arrow_right::arrow_down::arrow_left:)** to select it and **Alt + Delete** delete.
+
+Well there are other alternate keystrokes for deleting, but I feel those are way to useless so I won't be mentioning them here.
+
+**NOTE:** In case you need to cut, copy or delete everything; then perform the [**Select All**](#select-all) trick and then perform the respective method to cut, copy or delete.
+
 ## Summary
 
 Lets summarize what we know.
@@ -77,4 +85,6 @@ Lets summarize what we know.
 | Alt + 6 | Alt + Shift + 6 | Copy entire line with line break |
 | Alt + A + (→←↑↓) → Alt + 6 | Alt + A + (→←↑↓) → Alt + Shift + 6 | Copy words/portion of a sentence |
 | Ctrl + U | F10 | Paste text from the buffer |
+| Backspace, Delete | Shift + Delete | Delete text character by character |
+| Alt + Delete |  | Delete entire line with line break |
 <!-- |  |  |  | -->
