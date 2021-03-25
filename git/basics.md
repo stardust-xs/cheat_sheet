@@ -36,8 +36,8 @@ To use Git, we need to configure it first. Configuring Git is similar to **loggi
 I have my own preference for this and I would recommend you to follow these steps too. These following "steps" are not mandatory and can be overridden later whenever you want.
 
 Okay, so my Git "configuration" involves 2 steps:
-- Adding user and
-- Adding gpg key
+- Adding User and
+- Adding GPG key
 
 ### Adding User
 
@@ -62,3 +62,9 @@ Adding GPG key is a **totally optional** step. I honestly don't know what exactl
 <p align="center">
   <img src="https://github.com/xames3/cheat_sheet/blob/assets/media/git-add-gpg.png?raw=true">
 </p>
+
+We'll see how to setup GPG key **here**.<br>Once we've created and added our GPG key to our GitHub profile, we'll configure it with git as well with the below commands:
+```bash
+git config --global user.signingKey "<YOUR GPG KEY>"
+git config --global commit.gpgSign true
+```
