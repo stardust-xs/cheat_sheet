@@ -68,3 +68,19 @@ We'll see how to setup GPG key **here**.<br>Once we've created and added our GPG
 git config --global user.signingKey "<YOUR GPG KEY>"
 git config --global commit.gpgSign true
 ```
+
+<p align="center">
+  <img src="https://github.com/xames3/cheat_sheet/blob/assets/media/git-configure-gpg.png?raw=true">
+</p>
+
+## Get help
+
+If you need help with any particular command, just `git <COMMAND VERB> --help`. Here `<COMMAND VERB>` means the commands that you use in particular to perform some **action** hence the verb.
+
+For example:
+```bash
+git push --help
+git pull --help
+git checkout --help
+git ... --help
+```
