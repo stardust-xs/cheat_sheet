@@ -57,7 +57,7 @@ git config --global user.email "<YOUR REGISTERED EMAIL WITH GIT>"
 
 ### Adding GPG Key
 
-Adding GPG key is a **totally optional** step. I honestly don't know what exactly it does, but I what I am aware off is the fact that adding a GPG key marks your commit as *`Verified`* in the commit history.
+Adding GPG key is a **totally optional** step. I honestly don't know what exactly it does, but I what I am aware off is the fact that adding a GPG key marks your commit as <button  style="color:green">Verified</button> in the commit history.
 
 <p align="center">
   <img src="https://github.com/xames3/cheat_sheet/blob/assets/media/git-add-gpg.png?raw=true">
@@ -99,3 +99,16 @@ First is the easiest as it gets than the latter.
 ## Tracking your local code with Git
 
 This part explains how to start using git in your existing/new *"non-git"* project. Now going forward for the sake of simplicity we'll call our projects as **repositories**. So we're working with our local repository or **repo** in short. Doing this will enable us to track our repo using Git. To do this we need to initialize our repo using `git init` command.
+
+
+<p align="center">
+  <img src="https://github.com/xames3/cheat_sheet/blob/assets/media/git-init.png?raw=true">
+</p>
+
+This will initialize an **empty** git repository, here empty doesn't implies that your **local** directory is empty rather it means the "*hypothetical*" **remote** repository (you just created by `git init`) is empty. This initialization adds a `.git` directory which holds all the metadata about the changes that you make to this repo.
+
+<p align="center">
+  <img src="https://github.com/xames3/cheat_sheet/blob/assets/media/local-repo-init.png?raw=true">
+</p>
+
+And that's it! This is how you start using git with your new/existing repository.
