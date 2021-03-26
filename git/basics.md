@@ -57,7 +57,7 @@ git config --global user.email "<YOUR REGISTERED EMAIL WITH GIT>"
 
 ### Adding GPG Key
 
-Adding GPG key is a **totally optional** step. I honestly don't know what exactly it does, but I what I am aware off is the fact that adding a GPG key marks your commit as <button  style="color:green">Verified</button> in the commit history.
+Adding GPG key is a **totally optional** step. I honestly don't know what exactly it does, but I what I am aware off is the fact that adding a GPG key marks your commit as <span style="color:green">Verified</span> in the commit history.
 
 <p align="center">
   <img src="https://github.com/xames3/cheat_sheet/blob/assets/media/git-add-gpg.png?raw=true">
