@@ -84,3 +84,18 @@ git pull --help
 git checkout --help
 git ... --help
 ```
+
+## Working with Git
+
+Now that you've setup Git, lets start using it. Before we start using Git we need to pick/consider either of the 2 scenarios:
+- Either you're trying to implement git in your existing/new **local** project (repository) OR
+- You're trying to work on/with someone else's **remote** project.
+
+
+Here, local and remote are the 2 key takeaways.<br>Local means "**locally**" available. The stuff which is literally present on your computer and that you can directly interact with whereas Remote means "**remotely**" available. Which is present far far away like on the **internet**. This is the stuff that you cannot interact directly or you need some special access/permission to fiddle around.
+
+First is the easiest as it gets than the latter.
+
+## Tracking your local code with Git
+
+This part explains how to start using git in your existing/new *"non-git"* project. Now going forward for the sake of simplicity we'll call our projects as **repositories**. So we're working with our local repository or **repo** in short. Doing this will enable us to track our repo using Git. To do this we need to initialize our repo using `git init` command.
