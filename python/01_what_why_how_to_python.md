@@ -2,20 +2,19 @@
 
 ## What is Python
 
-As per Wikipedia, "***[Python](https://en.wikipedia.org/wiki/python_(programming_language))** is an **[interpreted](https://en.wikipedia.org/wiki/Interpreted_language)**, **[high-level](https://en.wikipedia.org/wiki/High-level_programming_language)**, **[general-purpose programming language](https://en.wikipedia.org/wiki/General-purpose_programming_language)**.*"
-Well this definition doesn't really help unless you understand every single term in it. So let's break it down into smaller digestable bits.
+As per Wikipedia, "***[Python](https://en.wikipedia.org/wiki/python_(programming_language))** is an **[interpreted](https://en.wikipedia.org/wiki/Interpreted_language)**, **[high-level](https://en.wikipedia.org/wiki/High-level_programming_language)**, **[general-purpose programming language](https://en.wikipedia.org/wiki/General-purpose_programming_language)**.*"<br>Well this definition doesn't really help unless you understand every single term in it. So let's break it down into smaller digestable bits.
 
-- **Interpreted**
+- Interpreted
   - Interpreting languages are the one which executes **line by line**. **Scripting** and **[Declarative](https://en.wikipedia.org/wiki/Declarative_programming)** languages are also considered as interpreted languages.
   - They **don't [compile](https://en.wikipedia.org/wiki/Compiler)**, they just run (execute) the code.
   - Python, **[Ruby](https://en.wikipedia.org/wiki/Ruby_(programming_language))**, **[Javascript](https://en.wikipedia.org/wiki/JavaScript)**, etc are some examples of Interpreting language.
 
-- **High-level**
+- High-level
   - A High-level language (HLL) means **human understandable** language.
   - They use **common english words** (natural language) to describe their functions (For example: filter, join, import).
   - Python, **[C](https://en.wikipedia.org/wiki/C_(programming_language))**, **[C++](https://en.wikipedia.org/wiki/C%2B%2B)**, **[Java](https://en.wikipedia.org/wiki/Java_(programming_language))**, etc are some examples of High-level language.
 
-- **General-purpose**
+- General-purpose
   - General-purpose programming languages are the ones which are used in **wide applications**, across multiple domains and on various platforms in some form or another.
   - Python running on a development board like **[Raspberry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi#Software)** is an example of Python's general purpose roots.
   - Python, C, C++, **[Go](https://en.wikipedia.org/wiki/Go_(programming_language))**, etc are examples of General-purpose language.
