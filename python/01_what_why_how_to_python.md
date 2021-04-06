@@ -5,7 +5,7 @@
 As per Wikipedia, "***[Python](https://en.wikipedia.org/wiki/python_(programming_language))** is an **[interpreted](https://en.wikipedia.org/wiki/Interpreted_language)**, **[high-level](https://en.wikipedia.org/wiki/High-level_programming_language)**, **[general-purpose programming language](https://en.wikipedia.org/wiki/General-purpose_programming_language)**.*"<br>Well this definition doesn't really help unless you understand every single term in it. So let's break it down into smaller digestable bits.
 
 - Interpreted
-  - Interpreting languages are the one which executes **line by line**. **Scripting** and **[Declarative](https://en.wikipedia.org/wiki/Declarative_programming)** languages are also considered as interpreted languages.
+  - Interpreting languages are the one which executes **line by line**.<br>**Scripting** and **[Declarative](https://en.wikipedia.org/wiki/Declarative_programming)** languages are also considered as interpreted languages.
   - They **don't [compile](https://en.wikipedia.org/wiki/Compiler)**, they just run (execute) the code.
   - Python, **[Ruby](https://en.wikipedia.org/wiki/Ruby_(programming_language))**, **[Javascript](https://en.wikipedia.org/wiki/JavaScript)**, etc are some examples of Interpreting language.
 
