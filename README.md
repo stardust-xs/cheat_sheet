@@ -2,14 +2,14 @@
 
 # Cheat Sheet
 
-This repositories hosts some commonly used methods, tutorials, tips & tricks regarding **Python**, **Git** and **OSS** technologies.
+This repository hosts some commonly used methods, tutorials, tips & tricks regarding **Python**, **Git** and **OSS** technologies.
 
 ## Table of Contents
 
 - [Python Cheat Sheet](https://github.com/xames3/cheat_sheet/blob/master/python/)
   - [What, Why and How to Python?](https://github.com/xames3/cheat_sheet/blob/master/python/01_what_why_how_to_python.md#what-why-and-how-to-python)
     - [What is Python](https://github.com/xames3/cheat_sheet/blob/master/python/01_what_why_how_to_python.md#what-is-python)
-    - [Whay to use Python](https://github.com/xames3/cheat_sheet/blob/master/python/01_what_why_how_to_python.md#why-to-use-python)
+    - [Why to use Python](https://github.com/xames3/cheat_sheet/blob/master/python/01_what_why_how_to_python.md#why-to-use-python)
     - [How to get started with Python](https://github.com/xames3/cheat_sheet/blob/master/python/01_what_why_how_to_python.md#how-to-get-started-with-python)
 - [Pandas Cheat Sheet](https://github.com/xames3/cheat_sheet/tree/master/pandas)
   - [Series](https://github.com/xames3/cheat_sheet/blob/master/pandas/series_1%20(basics).ipynb)
