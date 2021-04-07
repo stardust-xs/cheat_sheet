@@ -126,3 +126,4 @@ dmypy.json
 
 # Ignored on-device directories
 .vscode/
+*.bak
