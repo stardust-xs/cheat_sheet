@@ -88,7 +88,7 @@ Here it means, `xa = "XA"` and `mes3 = "MES3"` in simple terms.
 
 **Note:** Ensure the number of variables on left-hand side is **equal** to number of objects on right-hand side (Currently we're assuming this for variable assignments only). Assigning multiple values to a single identifier on the other hand is going to create a **tuple**.
 
-## What happens when we assign a value to a variable
+## What happens when we assign values to variables
 
 When we write `var_1 = 420`, the **[interpreter](https://en.wikipedia.org/wiki/Interpreted_language)** does the following:
 
@@ -119,7 +119,7 @@ These are referred as **[Private](https://en.wikipedia.org/wiki/Class_(computer_
 - Accessible only in loops and class and functions.
 - They act like a **private** property or object in a callable (class or function) object.
 
-## How to delete a variable
+## How to delete variables
 
 Deleting a variable in Python is easy. Prefix **[del](https://docs.python.org/3/reference/simple_stmts.html#del)** to an identifier and it gets deleted as simple as that.
 Ensure that you don't prefix it while writing an expression. Otherwise, it'll throw **SyntaxError**.
