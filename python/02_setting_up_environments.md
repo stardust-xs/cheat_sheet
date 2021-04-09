@@ -65,3 +65,5 @@ And done!
   <p align="center">
     <img src="https://github.com/xames3/cheat_sheet/blob/assets/media/win-venv-venv.PNG?raw=true">
   </p>
+
+In order to get out of the virtual environment, type `deactivate` this deactivates the venv.
