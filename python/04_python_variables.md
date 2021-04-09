@@ -172,11 +172,7 @@ So, when we re-create the same **"XAMES3"** object and check its `id()` it is go
 xa = "XAMES3"
 print(id(xa)) # This threw 139635360541896
 ```
-
-## Tip
-
-For the sake of optimization, Python assigns lower memory addresses to values in range of **-5** to **256**.
-Try this by yourselves:
+**Tip:** For the sake of optimization, Python assigns lower memory addresses to values in range of **-5** to **256**.
 
 ```python
 print(id(5), id(-2), id(100), id(256), id(257), id(1000), sep="\n")
