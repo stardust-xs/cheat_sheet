@@ -72,6 +72,17 @@ var_1 = 69j             # Only imaginary part
 var_2 = 420 + 69j       # With real part
 ```
 
+#### Booleans (bool)
+
+By definition, *Booleans mean either of the two literals (constant) objects **False** and **True**.*
+
+They are used to represent truth values. Also Booleans are subclass (child class) of Integers, hence in python 0 and 1 can also be resolved or treated as False and True respectively.
+
+```python
+xa_is_god = True
+xa_is_mortal = False
+```
+
 #### None (NoneType)
 
 By definition, *None represents the absence of a value or **[null](https://docs.python.org/3/library/stdtypes.html?highlight=list#the-null-object)**.*
@@ -85,17 +96,6 @@ xa = None
 ```
 
 **Note:** None resets the variable. It **doesn't** delete it.
-
-#### Booleans (bool)
-
-By definition, *Booleans mean either of the two literals (constant) objects **False** and **True**.*
-
-They are used to represent truth values. Also Booleans are subclass (child class) of Integers, hence in python 0 and 1 can also be resolved or treated as False and True respectively.
-
-```python
-xa_is_god = True
-xa_is_mortal = False
-```
 
 ### Container Type
 
