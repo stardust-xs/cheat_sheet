@@ -30,7 +30,7 @@ This repository hosts some commonly used methods, tutorials, tips & tricks regar
     - [Assignment operators](https://github.com/xames3/cheat_sheet/blob/master/python/05_python_operators.md#assignment-operators)
     - [Comparison operators](https://github.com/xames3/cheat_sheet/blob/master/python/05_python_operators.md#comparison-operators)
     - [Logical operators](https://github.com/xames3/cheat_sheet/blob/master/python/05_python_operators.md#logical-operators)
-    - [Identity - Membership operators](https://github.com/xames3/cheat_sheet/blob/master/python/05_python_operators.md#identity-membership---operators)
+    - [Identity - Membership operators](https://github.com/xames3/cheat_sheet/blob/master/python/05_python_operators.md#identity---membership-operators)
 - [Pandas Cheat Sheet](https://github.com/xames3/cheat_sheet/tree/master/pandas)
   - [Series](https://github.com/xames3/cheat_sheet/blob/master/pandas/series_1%20(basics).ipynb)
     - [Basics](https://github.com/xames3/cheat_sheet/blob/master/pandas/series_1%20(basics).ipynb)
