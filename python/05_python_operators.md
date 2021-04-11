@@ -269,7 +269,7 @@ var_1, var_2 = 619, 69
 output = var_1 >= var_2 # output = True
 ```
 
-## Logical Ooperators
+## Logical operators
 
 **[Logical operations](https://en.wikipedia.org/wiki/Logical_connective#Computer_science)** are the ones which usually revolves around the concepts of **[logical gates](https://en.wikipedia.org/wiki/Logic_gate)** in Digital Electronics and kinda works exactly like the same. These are **usually\*** used along in the Comparison operations.
 
