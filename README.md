@@ -43,6 +43,7 @@ This repository hosts some commonly used methods, tutorials, tips & tricks regar
         - [Tuples](https://github.com/xames3/cheat_sheet/blob/master/python/06_datastructures_in_python.md#tuple-tuple)
         - [Dictionaries](https://github.com/xames3/cheat_sheet/blob/master/python/06_datastructures_in_python.md#dictionary-dict)
         - [Sets](https://github.com/xames3/cheat_sheet/blob/master/python/06_datastructures_in_python.md#set-set)
+  - [Accepting User Inputs](https://github.com/xames3/cheat_sheet/blob/master/python/07_accepting_user_inputs.md#accepting-user-inputs)
 - [Pandas Cheat Sheet](https://github.com/xames3/cheat_sheet/tree/master/pandas)
   - [Series](https://github.com/xames3/cheat_sheet/blob/master/pandas/series_1%20(basics).ipynb)
     - [Basics](https://github.com/xames3/cheat_sheet/blob/master/pandas/series_1%20(basics).ipynb)
