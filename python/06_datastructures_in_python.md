@@ -51,25 +51,25 @@ Numbers are created by numeric literals (constants **0-9**). Numeric literals co
 These are few ways of representing Integers in python:
 
 ```python
-var_1 = 69              # Unsigned int
-var_2 = -69             # Signed int
-var_3 = 69_000_000      # Integer with commas (69,000,000)
+>>> var_1 = 69              # Unsigned int
+>>> var_2 = -69             # Signed int
+>>> var_3 = 69_000_000      # Integer with commas (69,000,000)
 ```
 
 These are few ways of representing Floats in python:
 
 ```python
-var_1 = 69.0            # Unsigned float
-var_2 = -69.0           # Signed float
-var_3 = 69_000_000.420  # Float with commas (69,000,000.420)
-var_4 = 6.9e+8          # Exponents
+>>> var_1 = 69.0            # Unsigned float
+>>> var_2 = -69.0           # Signed float
+>>> var_3 = 69_000_000.420  # Float with commas (69,000,000.420)
+>>> var_4 = 6.9e+8          # Exponents
 ```
 
 This is how we represent Complex in python:
 
 ```python
-var_1 = 69j             # Only imaginary part
-var_2 = 420 + 69j       # With real part
+>>> var_1 = 69j             # Only imaginary part
+>>> var_2 = 420 + 69j       # With real part
 ```
 
 #### Booleans (bool)
@@ -79,8 +79,8 @@ By definition, *Booleans mean either of the two literals (constant) objects **Fa
 They are used to represent truth values. Also Booleans are subclass (child class) of Integers, hence in python 0 and 1 can also be resolved or treated as False and True respectively.
 
 ```python
-xa_is_god = True
-xa_is_mortal = False
+>>> xa_is_god = True
+>>> xa_is_mortal = False
 ```
 
 #### None (NoneType)
@@ -92,7 +92,7 @@ None is a **singleton** (fancy advance concept that we will explore later). Pyth
 This is how we write None:
 
 ```python
-xa = None
+>>> xa = None
 ```
 
 **Note:** None resets the variable. It **doesn't** delete it.
@@ -110,10 +110,10 @@ Technically, a "*List is an **ordered** collection of elements.*"
 But what does **ordered** means? Ordered means having **index** and retaining the **order** of creation in layman terms. Lists have **[indexes](https://en.wikipedia.org/wiki/Index_notation#In_computing)** or **index notations**. Hence, we can access elements of a list using its **index** position. In python, the index starts with **zero**.
 
 ```python
-xa = []  # Empty list
-xa = ["Srusthi"]  # List with single element
-xa = ["Shailesh", "Shivam", "Sagar", "Pranali"]  # List of all string elements (array)
-xa = [1, True, 4.0, 5, "6", None, _, 4.0, None]  # List of elements with different datatypes and duplicates
+>>> xa = []                                       # Empty list
+>>> xa = ["Srusthi"]                              # List with single element
+>>> xa = ["Shailesh", "Shivam", "Sagar"]          # List of all string elements (array)
+>>> xa = [True, 4.0, 5, "6", None, _, 4.0, None]  # List of elements with different datatypes and duplicates
 ```
 
 Lists can hold virtually any valid python object and need not to be homogeneous (same elements). There are **no restrictions** on having number of elements in a list but lists are always **definite**! Meaning all the elements in the **square brackets** seperated by **commas** will be part of the list. There can be an empty list (zero elements), there can be list with only one element or there could be multiple elements. A list could nest another list too.
@@ -125,10 +125,10 @@ Like Lists, Tuples are another **sequence type** data structure in python. If yo
 By definition, ***~~List~~** Tuple is an **ordered** collection of elements but its **immutable**.*
 
 ```python
-xa = ()  # Empty tuple
-xa = ("Ashish",) # # Tuple with single element. The comma is very important here
-xa = ("CR07", "Game Player", "XA", "Shubham")  # Tuple of all string elements
-xa = (None, _, 1, "DBZ", 42.0, tuple(), "DBZ")  # Tuple of elements with different datatypes and duplicates
+>>> xa = ()                                   # Empty tuple
+>>> xa = ("Ashish",)                          # Tuple with single element, the comma is very important
+>>> xa = ("CR07", "Game Player", "Shubham")   # Tuple of all string elements
+>>> xa = (None, "DBZ", 42.0, tuple(), "DBZ")  # Tuple of elements with different datatypes and duplicates
 ```
 
 Tuple can also hold virtually any valid python object and need not to be homogeneous (same elements). Similarly, there are **no restrictions** on having number of elements in a tuple and are **definite** too. There can be an empty tuple (zero elements), there can also be tuple with only one element or there could be multiple elements. A tuple could nest another tuple too just like a list.
@@ -150,9 +150,9 @@ There are some important things to note before creating a dictionary:
 - Dictionary values can hold nested objects.
 
 ```python
-xa = {}  # Empty dictionary
-xa = {"name": "XA"}  # Dictionary with single key-value pair
-xa = {"name": "XA", "age" : 25, "type": "God"}  # Dictionary with multiple key-value pairs
+>>> xa = {}                                         # Empty dictionary
+>>> xa = {"name": "XA"}                             # Dictionary with single key-value pair
+>>> xa = {"name": "XA", "age" : 25, "type": "God"}  # Dictionary with multiple key-value pairs
 ```
 
 Here for the last example, **"name"** is the key whose paired value is **"XA"**. Similarly, for **"age"** its respective value is **25** (integer) and so on. This tells us value of a key-value pair of a dictionary object could be of any datatype.
@@ -166,13 +166,15 @@ Like dictionaries, these are unordered too, meaning the elements of a set cannot
 The whole concept of set is based on **Set Theory**. Just like a dictionary, sets are created using **curly brackets** with elements seperated by **commas** in python but you **cannot** create an empty set using this method. Since a pair of curly brackets **{}** resembles an empty dictionary, we need to use the **built-in** set type for creating an empty set.
 
 ```python
-xa = set()  # Empty set
-xa = {"Shivam"}  # Set with single element
-xa = {True, "Gamer", 42.0, "Daulat", 69, range(10), "Daulat"}  # Set of elements with different datatypes and duplicates
+>>> xa = set()                                                     # Empty set
+>>> xa = {"Shivam"}                                                # Set with single element
+>>> xa = {True, "Gamer", 42.0, "Daulat", 69, range(10), "Daulat"}  # Set of elements with different datatypes and duplicates
 ```
 
 Here for the last example, we can see there are **duplicates**. By definition, we cannot have duplicates in sets and hence when you print the output of last example, you'll get something like this
 
 ```python
+>>> xa
 {True, range(0, 10), 69, 42.0, 'Game', 'Daulat'}
+>>>
 ```

@@ -18,26 +18,33 @@ Addition is **commutative** and **associative**, so the order in which terms are
 **Note:** This is true only for adding numbers.
 
 ```python
-var_1, var_2 = 415, 5 # Parallel variable assignment
-total = var_1 + var_2 # total = 420
+>>> var_1, var_2 = 41, 1  # Parallel variable assignment
+>>> total = var_1 + var_2
+>>> total
+42
+>>>
 ```
 
 In Python, we can take addition to one step further. Python supports addition of **strings** and **lists** too.
 
 ```python
-list_1 = [1, 2, 3]
-list_2 = [4, 5, 6]
-
-total = list_1 + list_2 # total = [1, 2, 3, 4, 5, 6] - This is called List extension.
+>>> list_1 = [1, 2, 3]
+>>> list_2 = [4, 5, 6]
+>>> total = list_1 + list_2  # This is called List extension
+>>> total
+[1, 2, 3, 4, 5, 6]
+>>>
 ```
 
 and
 
 ```python
-str_1 = "Hello"
-str_2 = "World"
-
-total = str_1 + str_2 # total = "HelloWorld" - This is called String concatenation.
+>>> str_1 = "Hello"
+>>> str_2 = "World"
+>>> total = str_1 + str_2  # This is called String concatenation
+>>> total
+'HelloWorld'
+>>>
 ```
 
 **Note:** You can perform addition only on values of **same** datatype. Performing addition on variables of different datatype will throw **TypeError**.
@@ -47,8 +54,11 @@ total = str_1 + str_2 # total = "HelloWorld" - This is called String concatenati
 Subtraction is **opposite** of addition, done with minus operator (**-**). Subtraction is neither **commutative** nor **associative**, so the order in which terms are subtracted does matter alot. Subtraction is only supported by numbers in Python.
 
 ```python
-var_1, var_2 = 425, 5
-total = var_1 - var_2 # total = 420
+>>> var_1, var_2 = 43, 1
+>>> total = var_1 - var_2
+>>> total
+42
+>>>
 ```
 
 ### Multiplication
@@ -56,22 +66,31 @@ total = var_1 - var_2 # total = 420
 Multiplication is also **commutative** and **associative** like addition and it is **[distributive](https://en.wikipedia.org/wiki/Distributive_property)** as well. It is done with multiplication operator (**\***).
 
 ```python
-var_1, var_2 = 42, 10
-total = var_1 * var_2 # total = 420
+>>> var_1, var_2 = 42, 1
+>>> total = var_1 * var_2
+>>> total
+42
+>>>
 ```
 
 Just like addition, multiplication can be performed on **strings** and **lists**.
 
 ```python
-list_1 = [1, 2, 3]
-total = list_1 * 3 # total = [1, 2, 3, 1, 2, 3, 1, 2, 3]
+>>> list_1 = [1, 2, 3]
+>>> total = list_1 * 3
+>>> total
+[1, 2, 3, 1, 2, 3, 1, 2, 3]
+>>>
 ```
 
 and
 
 ```python
-str_1 = "Ha"
-total = str_1 * 3 # total = "HaHaHa"
+>>> str_1 = "Ha"
+>>> total = str_1 * 3
+>>> total
+'HaHaHa'
+>>>
 ```
 
 **Note:** You can perform multiplication of **lists** and **strings** with **integers** only.
@@ -81,8 +100,11 @@ total = str_1 * 3 # total = "HaHaHa"
 Division is essentially **opposite** of multiplication, done with slash operator (**/**). Like subtraction, division is also neither **commutative** nor **associative**, so the order in which terms are divided does matter alot. Division is only supported by **numbers** in Python and output of division operation always returns a **float** value.
 
 ```python
-var_1, var_2 = 4200, 10
-total = var_1 / var_2 # total = 420.0
+>>> var_1, var_2 = 420, 10
+>>> total = var_1 / var_2
+>>> total
+42.0
+>>>
 ```
 
 **Note:** Division returns **quotient** in **float**.
@@ -93,12 +115,18 @@ Floored division is just like normal division but this return an **integral** pa
 
 ```python
 # Normal Division:
-var_1, var_2 = 25, 9
-total = var_1 / var_2 # total = 2.7777777777777777
+>>> var_1, var_2 = 25, 9
+>>> total = var_1 / var_2
+>>> total
+2.7777777777777777
+>>>
 
 # Floored Division:
-var_1, var_2 = 25, 9
-total = var_1 // var_2 # total = 2
+>>> var_1, var_2 = 25, 9
+>>> total = var_1 // var_2
+>>> total
+2
+>>>
 ```
 
 **Note:** Floored division returns **quotient** as **integer without rounding-off** the value.
@@ -108,8 +136,11 @@ total = var_1 // var_2 # total = 2
 Modulus or **[Modulo](https://en.wikipedia.org/wiki/Modulo_operation)** operation returns **remainder**. It is carried out using **"%"** operator in Python. The output of a modulus operation could be either **float** or **integer** depending upon the **type** of the operands.
 
 ```python
-var_1, var_2 = 4200, 10
-total = var_1 % var_2 # total = 0
+>>> var_1, var_2 = 420, 10
+>>> total = var_1 % var_2
+>>> total
+0
+>>>
 ```
 
 ### Exponentiations
@@ -117,8 +148,11 @@ total = var_1 % var_2 # total = 0
 **[Exponentiation](https://en.wikipedia.org/wiki/Exponentiation)** or Powers in python are represented using **"\*\*"** (double asterisk) operator. Like modulus, the output of exponentiation operation could also be either **float** or **integer** depending upon the **type** of the operands.
 
 ```python
-var_1, var_2 = 2, 3
-total = var_1 ** var_2 # total = 8
+>>> var_1, var_2 = 2, 3
+>>> total = var_1 ** var_2
+>>> total
+8
+>>>
 ```
 
 ## Assignment operators
@@ -136,11 +170,14 @@ We can perform Assignment operations for basic arithmetic operators since this m
 This is how we write Addition assignment.
 
 ```python
-var_1, var_2 = 415, 5
-var_1 += var_2 # var_1 = 420
+>>> var_1, var_2 = 41, 1
+>>> var_1 += var_2
+>>> var_1
+42
+>>>
 
 # This is basically
-var_1 = var_1 + var_2
+>>> var_1 = var_1 + var_2
 ```
 
 **Note**: Please note that the first object (object to the left-hand side) gets assigned with the output.
@@ -150,11 +187,14 @@ var_1 = var_1 + var_2
 This is how we write Subtraction assignment. Execution is **similar** to that of Addition assignment.
 
 ```python
-var_1, var_2 = 425, 5
-var_1 -= var_2 # var_1 = 420
+>>> var_1, var_2 = 43, 1
+>>> var_1 -= var_2
+>>> var_1
+42
+>>>
 
 # This is basically
-var_1 = var_1 - var_2
+>>> var_1 = var_1 - var_2
 ```
 
 ### Multiplication assignment
@@ -162,11 +202,14 @@ var_1 = var_1 - var_2
 This is how we write Multiplication assignment. Again execution is **similar** to that of above assignment methods.
 
 ```python
-var_1, var_2 = 42, 10
-var_1 *= var_2 # var_1 = 420
+>>> var_1, var_2 = 42, 1
+>>> var_1 *= var_2
+>>> var_1
+42
+>>> 
 
 # This is basically
-var_1 = var_1 * var_2
+>>> var_1 = var_1 * var_2
 ```
 
 ### Division assignment
@@ -174,11 +217,14 @@ var_1 = var_1 * var_2
 This is how we write Division assignment. **Similar** execution as above. This too will return **float** as output by default.
 
 ```python
-var_1, var_2 = 4200, 10
-var_1 /= var_2 # var_1 = 420.0
+>>> var_1, var_2 = 420, 10
+>>> var_1 /= var_2
+>>> var_1
+42.0
+>>> 
 
 # This is basically
-var_1 = var_1 / var_2
+>>> var_1 = var_1 / var_2
 ```
 
 ### Floored division assignment
@@ -186,11 +232,14 @@ var_1 = var_1 / var_2
 This is how we write Floored division assignment.
 
 ```python
-var_1, var_2 = 4200.0, 10.0
-var_1 //= var_2 # var_1 = 420
+>>> var_1, var_2 = 420.0, 10.0
+>>> var_1 //= var_2
+>>> var_1
+42
+>>>
 
 # This is basically
-var_1 = var_1 // var_2
+>>> var_1 = var_1 // var_2
 ```
 
 ### Modulus assignment
@@ -198,11 +247,14 @@ var_1 = var_1 // var_2
 This is how we write Modulus assignment.
 
 ```python
-var_1, var_2 = 420, 10
-var_1 %= var_2 # var_1 = 0
+>>> var_1, var_2 = 420, 10
+>>> var_1 %= var_2
+>>> var_1
+0
+>>> 
 
 # This is basically
-var_1 = var_1 % var_2
+>>> var_1 = var_1 % var_2
 ```
 
 ### Exponentiation assignment
@@ -210,11 +262,14 @@ var_1 = var_1 % var_2
 This is how we write Exponentiation assignment.
 
 ```python
-var_1, var_2 = 2, 3
-var_1 **= var_2 # var_1 = 8
+>>> var_1, var_2 = 2, 3
+>>> var_1 **= var_2
+>>> var_1
+8
+>>> 
 
 # This is basically
-var_1 = var_1 ** var_2
+>>> var_1 = var_1 ** var_2
 ```
 
 ## Comparison operators
@@ -228,11 +283,17 @@ Read more **[here](https://en.wikipedia.org/wiki/Relational_operator#Sameness_(o
 **Equal to** operations are carried out using the **Equality**, **"=="** (double equal to) operator in Python. Equal to is **commutative**.
 
 ```python
-var_1, var_2 = 69, 69
-output = var_1 == var_2 # output = True
+>>> var_1, var_2 = 69, 69
+>>> output = var_1 == var_2
+>>> output
+True
+>>> 
 
-var_1, var_2 = 619, 69
-output = var_1 == var_2 # output = False
+>>> var_1, var_2 = 420, 69
+>>> output = var_1 == var_2
+>>> output
+False
+>>>
 ```
 
 ### Not equal to
@@ -240,11 +301,17 @@ output = var_1 == var_2 # output = False
 **Not equal to** operations are carried out using **"!="** operator in Python. Like Equal to, Not equal to is **commutative** too.
 
 ```python
-var_1, var_2 = 69, 69
-output = var_1 != var_2 # output = False
+>>> var_1, var_2 = 69, 69
+>>> output = var_1 != var_2
+>>> output
+False
+>>> 
 
-var_1, var_2 = 619, 69
-output = var_1 != var_2 # output = True
+>>> var_1, var_2 = 420, 69
+>>> output = var_1 != var_2
+>>> output
+True
+>>> 
 ```
 
 ### Less than, Greater than, LTET and GTET
@@ -253,20 +320,32 @@ These are the obvious ones.
 
 ```python
 # Less than operation
-var_1, var_2 = 69, 420
-output = var_1 < var_2 # output = True
+>>> var_1, var_2 = 69, 420
+>>> output = var_1 < var_2
+>>> output
+True
+>>>
 
 # Greater than operation
-var_1, var_2 = 619, 69
-output = var_1 > var_2 # output = True
+>>> var_1, var_2 = 619, 69
+>>> output = var_1 > var_2
+>>> output
+True
+>>>
 
 # Less than equal to operation
-var_1, var_2 = 420, 420
-output = var_1 <= var_2 # output = True
+>>> var_1, var_2 = 420, 420
+>>> output = var_1 <= var_2
+>>> output
+True
+>>>
 
 # Greater than equal to operation
-var_1, var_2 = 619, 69
-output = var_1 >= var_2 # output = True
+>>> var_1, var_2 = 619, 69
+>>> output = var_1 >= var_2
+>>> output
+True
+>>>
 ```
 
 ## Logical operators
@@ -290,11 +369,17 @@ See this table:
 |     1     |  .  |     1     |    1   |
 
 ```python
-var_1, var_2 = 420, 420  # Non - Zero values represent True
-output = var_1 and var_2 # output = 420 (This represents 1 or True)
+>>> var_1, var_2 = 420, 420  # Non - Zero values represent True
+>>> output = var_1 and var_2
+>>> output
+420                          # This represents 1 or True
+>>> 
 
-var_1, var_2 = [], 420
-output = var_1 and var_2 # output = [] (This represents 0 or False)
+>>> var_1, var_2 = [], 420
+>>> output = var_1 and var_2
+>>> output
+[]                          # This represents 0 or False
+>>> 
 ```
 
 **Important Tip:** If both the operands are False, **first operand** will be considered as the output.
@@ -312,11 +397,17 @@ See this table:
 |     1     |  + |     1     |    1   |
 
 ```python
-var_1, var_2 = 420, 420  # Non - Zero values represent True
-output = var_1 or var_2  # output = 420 (This represents 1 or True)
+>>> var_1, var_2 = 420, 420  # Non - Zero values represent True
+>>> output = var_1 or var_2
+>>> output
+420                          # This represents 1 or True
+>>> 
 
-var_1, var_2 = [], 0
-output = var_1 or var_2  # output = 0 (This represents 0 or False)
+>>> var_1, var_2 = [], 0
+>>> output = var_1 or var_2
+>>> output
+0                            # This represents 0 or False
+>>> 
 ```
 
 **Important Tip:** If both the operands are False, **last operand** will be considered as the output.
@@ -326,11 +417,17 @@ output = var_1 or var_2  # output = 0 (This represents 0 or False)
 This is a simple negation.
 
 ```python
-var_1 = 420         # Non - Zero value represent True
-output = not var_1  # output = False
+>>> var_1 = 420         # Non - Zero value represent True
+>>> output = not var_1
+>>> output
+False
+>>> 
 
-var_1 = 0           # False value
-output = not var_1  # output = 1 (This represents True)
+>>> var_1 = 0           # False value
+>>> output = not var_1
+>>> output
+1                       # This represents True
+>>> 
 ```
 
 ## Identity - Membership operators
@@ -340,16 +437,20 @@ output = not var_1  # output = 1 (This represents True)
 Identity operator works on the **id** of the object. If the identity of the objects (ids) is same then it'll return **True** else **False**. It is carried out using the "**is**" keyword.
 
 ```python
-x = ["a", "b", "c"]
-y = ["a", "b", "c"]
-x is y  # Returns False
+>>> x = ["a", "b", "c"]
+>>> y = ["a", "b", "c"]
+>>> x is y
+False
+>>>
 ```
 
 This returns **False** because although the object (["a", "b", "c"]) look equal but they're not referencing to the same object i.e their ids are different.
 
 ```python
-id(x)  # Returns id as 139644023985664
-id(y)  # Returns id as 139644025323776
+>>> id(x)
+139644023985664
+>>> id(y)
+139644025323776
 ```
 
 Please do no get confused Identity of an object and Equality of the object. Objects may look equal but cannot be the same.
@@ -360,9 +461,12 @@ Well there are few exceptions to this clause, integers from **-5** to **256**, *
 In python, "**in**" is the membership operator where it checks if an object is present **in** a Container object. If the object is present in the other object then it'll return **True**, else **False**.
 
 ```python
-x = ["a", "b", "c"]
-"a" in x  # Returns True
-"z" in x  # Returns False
+>>> x = ["a", "b", "c"]
+>>> "a" in x
+True
+>>> "z" in x
+False
+>>>
 ```
 
 It doesn't matter how many objects are present in the container, if the object is present it will return **True**.

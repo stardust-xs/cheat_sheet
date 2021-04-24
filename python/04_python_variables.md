@@ -60,8 +60,9 @@ Like C, Python allows something called as **[Augmented assignment](https://en.wi
 An augmented assignment is generally used to replace a statement where an operator takes a variable operates on it and then assigns the result back to the same variable.
 
 ```python
-xa += 69 # Addition
-xa *= 69 # Multiplication
+>>> xa = 10   # Simple assignment
+>>> xa += 42  # Augmented addition
+>>> xa *= 42  # Augmented multiplication
 ```
 
 ### Chained assignment
@@ -69,10 +70,17 @@ xa *= 69 # Multiplication
 Python allows something called as **[Chained assignment](https://en.wikipedia.org/wiki/Assignment_(computer_science)#Chained_assignment)**, which makes it possible to assign the same **value** (object) to multiple variables simultaneously.
 
 ```python
-a = b = c = 420
+>>> a = b = c = 42
+>>> a
+42
+>>> b
+42
+>>> c
+42
+>>>
 ```
 
-Here, value of **420** is assigned to all the variables `a`, `b` and `c`.
+Here, value of **42** is assigned to all the variables `a`, `b` and `c`.
 
 **Note:** This is a nice and clean way of assigning same object to multiple variables at once but is little risky as this could potentially affect the values of other variables if not proceeded with caution.
 
@@ -81,7 +89,12 @@ Here, value of **420** is assigned to all the variables `a`, `b` and `c`.
 Like C, Python also allows **[Multiple variable assignment](https://en.wikipedia.org/wiki/Assignment_(computer_science)#Parallel_assignment)** or **Parallel assignment**, which essentially means more than one identifier can be assigned to multiple **literals**.
 
 ```python
-xa, mes3 = "XA", "MES3"
+>>> xa, mes3 = "XA", "MES3"
+>>> xa
+'XA'
+>>> mes3
+'MES3'
+>>>
 ```
 
 Here it means, `xa = "XA"` and `mes3 = "MES3"` in simple terms.
@@ -90,12 +103,12 @@ Here it means, `xa = "XA"` and `mes3 = "MES3"` in simple terms.
 
 ## What happens when we assign values to variables
 
-When we write `var_1 = 420`, the **[interpreter](https://en.wikipedia.org/wiki/Interpreted_language)** does the following:
+When we write `var_1 = 42`, the **[interpreter](https://en.wikipedia.org/wiki/Interpreted_language)** does the following:
 
 - Remember this! In Python, the statements (expressions) execute from **right to left**.
-- Python creates object in memory, the value of **420** somewhere in its memory randomly. This is called as **initialization**.
+- Python creates object in memory, the value of **42** somewhere in its memory randomly. This is called as **initialization**.
 - The Python interpreter now will try to understand what exactly the type of the object is. This process is like an **analysis**.
-- Once it understands that its an integer object, it will initialize an integer class and then assign the value of **420** to the variable `var_1`.
+- Once it understands that its an integer object, it will initialize an integer class and then assign the value of **42** to the variable `var_1`.
 
 ## Type of variables
 
@@ -146,22 +159,26 @@ When we create an object and if it is being used by your script, we can assign o
 It means the value or object stored in the memory is officially **deleted** by Python.
 
 ```python
-xa = "XAMES3"
-print(id(xa)) # Lets say we got id like this 139635360436592
+>>> xa = "XAMES3"
+>>> print(id(xa))
+139635360436592
+>>>
 ```
 
 We'll create one more reference to the same **"XAMES3"** object.
 
 ```python
-xames3 = "XAMES3"
-print(id(xames3)) # This will give the same address location 139635360436592
+>>> xames3 = "XAMES3"
+>>> print(id(xames3))
+139635360436592
+>>>
 ```
 
-Now for some reason we deleted or updated both the identifiers `xa` and `xames3`. This ensures the count of identifiers pointing to the **"XAMES3"** has dropped to **0**.
+Now for some reason we deleted or updated both the variables `xa` and `xames3`. This ensures the count of variables pointing to the **"XAMES3"** has dropped to **0**.
 
 ```python
-del xa # Deleted xa identifier
-xames3 = "God-Tier" # Updated xames3 identifier
+>>> del xa               # Deleted xa
+>>> xames3 = "God-Tier"  # Updated xames3
 ```
 
 Python keeps a track of unused/un-referred objects. And when it feels that the user is not using it, it deletes it so that the occupied memory could be released and thus making it available for something else. This process is called **"Garbage Collection"** in computer science.
@@ -169,10 +186,12 @@ Python keeps a track of unused/un-referred objects. And when it feels that the u
 So, when we re-create the same **"XAMES3"** object and check its `id()` it is going to be different.
 
 ```python
-xa = "XAMES3"
-print(id(xa)) # This threw 139635360541896
+>>> xa = "XAMES3"
+>>> print(id(xa))
+139635360541896
+>>>
 ```
-**Tip:** For the sake of optimization, Python assigns lower memory addresses to values in range of **-5** to **256**.
+**Tip:** For the sake of optimization, Python assigns lower memory addresses to values in range of **-5** to **256**.<br>Try this out:
 
 ```python
 print(id(5), id(-2), id(100), id(256), id(257), id(1000), sep="\n")
