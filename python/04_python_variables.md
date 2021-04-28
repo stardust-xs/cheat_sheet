@@ -51,7 +51,7 @@ These identifiers have certain rules or restrictions that every developer must f
 
 ## Variable assignments
 
-Python is a **[dynamically](https://en.wikipedia.org/wiki/Dynamic_programming_language)** typed language. We don't need to declare variables like C, C++. To create an variable, we just assign a value and then start using it. Assignment is done with a single equal sign (**=**).
+Python is a **[dynamically](https://en.wikipedia.org/wiki/Dynamic_programming_language)** typed language. We don't need to declare variables like C, C++. To create an variable, we just assign a value and then start using it. Assignment is done with a single equal sign (**=**). Variable assignment is of **O(1)** complexity in Python.
 
 ### Augmented assignment
 

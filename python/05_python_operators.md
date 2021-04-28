@@ -13,7 +13,7 @@ The basic **[Arithmetic operations](https://en.wikipedia.org/wiki/Arithmetic#Ari
 ### Addition
 
 Addition is the most basic operation of arithmetics, done with an addition operator (**+**).
-Addition is **commutative** and **associative**, so the order in which terms are added does not matter.
+Addition is **commutative** and **associative**, so the order in which terms are added does not matter.<br>Numeric addition is of **O(n)** complexity since you need to add all the **n** digits and the carry too.
 
 **Note:** This is true only for adding numbers.
 
@@ -51,7 +51,7 @@ and
 
 ### Subtraction
 
-Subtraction is **opposite** of addition, done with minus operator (**-**). Subtraction is neither **commutative** nor **associative**, so the order in which terms are subtracted does matter alot. Subtraction is only supported by numbers in Python.
+Subtraction is **opposite** of addition, done with minus operator (**-**). Subtraction is neither **commutative** nor **associative**, so the order in which terms are subtracted does matter alot. Subtraction is only supported by numbers in Python.<br>Similar to addition, subtraction also has **O(n)** complexity in python except here you borrow instead of carrying.
 
 ```python
 >>> var_1, var_2 = 43, 1
@@ -63,7 +63,7 @@ Subtraction is **opposite** of addition, done with minus operator (**-**). Subtr
 
 ### Multiplication
 
-Multiplication is also **commutative** and **associative** like addition and it is **[distributive](https://en.wikipedia.org/wiki/Distributive_property)** as well. It is done with multiplication operator (**\***).
+Multiplication is also **commutative** and **associative** like addition and it is **[distributive](https://en.wikipedia.org/wiki/Distributive_property)** as well. It is done with multiplication operator (**\***).<br>Multiplication is different, it has **O(n²)** complexity.
 
 ```python
 >>> var_1, var_2 = 42, 1
