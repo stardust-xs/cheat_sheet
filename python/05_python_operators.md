@@ -97,7 +97,7 @@ and
 
 ### Division
 
-Division is essentially **opposite** of multiplication, done with slash operator (**/**). Like subtraction, division is also neither **commutative** nor **associative**, so the order in which terms are divided does matter alot. Division is only supported by **numbers** in Python and output of division operation always returns a **float** value.
+Division is essentially **opposite** of multiplication, done with slash operator (**/**). Like subtraction, division is also neither **commutative** nor **associative**, so the order in which terms are divided does matter alot. Division is only supported by **numbers** in Python and output of division operation always returns a **float** value.<br>Division is similar to multiplication in terms of complexity, **O(n²)**. Read **[this](https://stackoverflow.com/a/60164951/14316408)** for a beautiful explanation of *Big O complexity* for division.
 
 ```python
 >>> var_1, var_2 = 420, 10
@@ -111,7 +111,7 @@ Division is essentially **opposite** of multiplication, done with slash operator
 
 ### Floored division
 
-Floored division is just like normal division but this return an **integral** part of the output value. Means it always returns an **integer** part before the decimal. Floored division is carried out with **"//"** operator in Python.
+Floored division is just like normal division but this return an **integral** part of the output value. Means it always returns an **integer** part before the decimal. Floored division is carried out with **"//"** operator in Python. Complexity of floored division is same as that of normal division.
 
 ```python
 # Normal Division:
