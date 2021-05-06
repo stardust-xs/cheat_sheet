@@ -18,6 +18,8 @@ This repository hosts some commonly used methods, tutorials, tips & tricks regar
     - [Starting Python session](https://github.com/xames3/cheat_sheet/blob/master/python/03_running_python.md#starting-python-session)
     - [Running Python code](https://github.com/xames3/cheat_sheet/blob/master/python/03_running_python.md#running-python-code)
     - [Miscellaneous options](https://github.com/xames3/cheat_sheet/blob/master/python/03_running_python.md#miscellaneous-options)
+  - [Escape sequences in Python](https://github.com/xames3/cheat_sheet/blob/master/python/08_escape_sequences_in_python.md)
+    - [List of escape characters](https://github.com/xames3/cheat_sheet/blob/master/python/08_escape_sequences_in_python.md#list-of-escape-characters)
   - [Python Variables](https://github.com/xames3/cheat_sheet/blob/master/python/04_python_variables.md#python-variables)
     - [Restrictions on variable names](https://github.com/xames3/cheat_sheet/blob/master/python/04_python_variables.md#restrictions-on-variable-names)
     - [Variable assignments](https://github.com/xames3/cheat_sheet/blob/master/python/04_python_variables.md#variable-assignments)
